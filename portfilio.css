@@ -179,15 +179,14 @@ p {
 
 /* Profile image asset housing */
 .profile-image-frame {
-    width: 400%; 
-    max-width: 40px;
-    height: 400px;
+    width: 400%;
+    max-width: 400px;
+    height: 460px;
     border: 1px solid #e5e5e5;
     background-color: #ffffff;
     padding: 6px;
     border-radius: 4px;
     margin-top: 20px;
-    border-radius: 50% 
     
 }
 
