@@ -179,9 +179,9 @@ p {
 
 /* Profile image asset housing */
 .profile-image-frame {
-    width: 500%;
-    max-width: 500px;
-    height: 560px;
+    width: 200%;
+    max-width: 200px;
+    height: 260px;
     border: 1px solid #e5e5e5;
     background-color: #ffffff;
     padding: 6px;
