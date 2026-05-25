@@ -179,15 +179,16 @@ p {
 
 /* Profile image asset housing */
 .profile-image-frame {
-    width: 400%;
+    width: 400%; /* Force une taille carrée identique L=H */
     max-width: 40px;
     height: 400px;
     border: 1px solid #e5e5e5;
     background-color: #ffffff;
-    padding: 6px;
+    padding: 6px; /* Espace intérieur pour le padding */
     border-radius: 4px;
     margin-top: 20px;
-    border-radius: 50%
+    border-radius: 50% /* Arrondit parfaitement */
+    overflow: hidden /* Masque tout ce qui dépasse du cercle */
 }
 
 .embedded-avatar {
